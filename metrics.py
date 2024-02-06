@@ -124,7 +124,6 @@ def DECE(labels_folder, preds_folder, num_bins=15, iou_thresh=0.5, conf_thresh=0
     FP_binned = np.digitize(FP, bins, right=True)-1
     
     DECE = 0
-    #DECE = 0
     
     bin_precs = np.zeros(num_bins)
     bin_confs = np.zeros(num_bins)
