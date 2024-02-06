@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This page presents the code for the uncertaintry calibration metrics proposed in the paper "A Theoretical and Practical Framework for Evaluating Uncertainty Calibration in Object Detection" (pre-print version availabe at https://arxiv.org/abs/2309.00464): Quadratic Global Calibration (QGC) score, Spherical Global Calibration (SGC) score and Expected Global Calibration Error (EGCE). Additionally code for the Detection Expected Calibration Erro (D-ECE) [1] is also available for comparison.
+This page presents the code for the uncertaintry calibration metrics proposed in the paper "A Theoretical and Practical Framework for Evaluating Uncertainty Calibration in Object Detection" (pre-print version availabe at https://arxiv.org/abs/2309.00464): Quadratic Global Calibration (QGC) score, Spherical Global Calibration (SGC) score and Expected Global Calibration Error (EGCE). Additionally code for the Detection Expected Calibration Error (D-ECE) [1] is also available for comparison.
 
 ## Instructions
 
