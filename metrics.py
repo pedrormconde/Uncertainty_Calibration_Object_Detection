@@ -69,7 +69,7 @@ def EGCE(labels_folder, preds_folder, num_bins=15, iou_thresh=0.5, conf_thresh=0
     
     TP=TP_new
     
-    bins = np.linspace(0.0, 1.0, num_bins+1)#[1:]
+    bins = np.linspace(0.0, 1.0, num_bins+1)
     bins[0] = bins[0]-0.001
 
     TP_binned = np.digitize(TP, bins, right=True)-1
@@ -117,7 +117,7 @@ def DECE(labels_folder, preds_folder, num_bins=15, iou_thresh=0.5, conf_thresh=0
     TP = TP[TP>=conf_thresh]
     FP = FP[FP>=conf_thresh]
     
-    bins = np.linspace(0.0, 1.0, num_bins+1)#[1:]
+    bins = np.linspace(0.0, 1.0, num_bins+1)
     bins[0] = bins[0]-0.001
 
     TP_binned = np.digitize(TP, bins, right=True)-1
