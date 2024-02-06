@@ -147,8 +147,11 @@ def DECE(labels_folder, preds_folder, num_bins=15, iou_thresh=0.5, conf_thresh=0
 
 
 if __name__ == "__main__":
+
+    labels = # labels directory
+    detections = # detections directory
     
-    qgc, qgc_avg = QGC(f'COCO\\validation\\labels', f'COCO\\yolov5\\yolov5l6\\detect_test\\labels', iou_thresh=0.5)
+    qgc, qgc_avg = QGC(labels, detections, iou_thresh=0.5)
     
     print(qgc,qgc_avg)
     
