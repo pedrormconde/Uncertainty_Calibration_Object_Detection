@@ -6,6 +6,7 @@ This page presents the code for the uncertaintry calibration metrics proposed in
 
 ## Instructions
 
+The metrics are in the file _metrics.py_, while the file _utils_.py_ has some necessary additional code. To apply the metrics, the input needed is the directory of a folder with all the ground-truth labels (1st argument, _i.e._ _labels_folder_) and the directory of a folder with all the predicted bounding boxes (2nd argument, _i.e._ _preds_folder_); these folders must be in the common YOLOv5 format. The output of each metric is in the format _total,avg_, wher _total_ represent the absolute value of the metrcis and _avg_ the average value (_i.e._ divided by the total number of bounding-box detections).
 
 ## References
 
